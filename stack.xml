@@ -1,0 +1,13 @@
+<stack>
+  <description brief="roshpit">ROSH related packages. This is a temporary stack that is expected to go away after the Diamondback release. For C Turtle and Diamondback it provides a convenient way to install rosh until it is properly stabilized.</description>
+  <author>Maintained by Ken Conley</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosh_robot_plugins</url>
+  <depend stack="common" /> <!-- actionlib -->
+  <depend stack="common_msgs" /> <!-- nav_msgs, geometry_msgs, sensor_msgs -->
+  <depend stack="geometry" /> <!-- tf -->
+  <depend stack="ros" /> <!-- roslib, rosclean -->
+  <depend stack="ros_comm" /> <!-- std_msgs, rosparam, rosgraph, rosout, rosmaster, rospy, rostopic, rosservice, rosnode, rosmsg -->
+
+</stack>

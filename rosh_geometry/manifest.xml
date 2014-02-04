@@ -1,0 +1,19 @@
+<package>
+  <description brief="ROSH geometry plugin">
+
+     ROSH plugin for the geometry stack, including tf.
+
+  </description>
+  <author>Ken Conley</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosh_geometry</url>
+  <depend package="roslib"/>
+  <depend package="rospy"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+  <depend package="rosh"/>
+
+</package>
+
+

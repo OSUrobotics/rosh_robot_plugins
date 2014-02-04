@@ -1,0 +1,7 @@
+syntax: glob
+*.pyc
+*.DS_Store
+*~
+*.log
+syntax: regexp
+(build|msg_gen|srv_gen|gen)/*

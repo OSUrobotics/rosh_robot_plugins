@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(rosh_geometry)
+project(rosh_robot_plugins)
 find_package(catkin REQUIRED)
-catkin_package()
-catkin_python_setup()
+catkin_metapackage()

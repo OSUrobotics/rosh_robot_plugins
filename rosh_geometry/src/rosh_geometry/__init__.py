@@ -53,6 +53,7 @@ def rosh_plugin_load(plugin_context, globals_=None):
         # do not initialize if a master is not active. we should also
         # test for the presence of an initialized node.
         if not plugin_context.ctx.master.is_online():
+            print 'Cannot load geometry when no master is running.'
             return
     except:
         return
@@ -66,5 +67,6 @@ def rosh_plugin_load(plugin_context, globals_=None):
                        'PoseStamped': PoseStamped,
                        'QuaternionStamped': QuaternionStamped,
                        'Vector3Stamped': Vector3Stamped
-      }
+    }
     rosh.plugin.globals_load(plugin_context, globals_, _loaded_symbols)
+    

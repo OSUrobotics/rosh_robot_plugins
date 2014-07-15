@@ -37,6 +37,7 @@ import roslib; roslib.load_manifest('rosh_geometry')
 import rosh.plugin
 from rosh_geometry.tf_frame import TFFrames
 from rosh_geometry.geometry import Point, Quaternion, PointStamped, PoseStamped, QuaternionStamped, Vector3Stamped, header
+from rosh_geometry.helpers import setXYZ, setQuat
 
 _loaded_symbols = None
 def rosh_plugin_load(plugin_context, globals_=None):
@@ -66,6 +67,8 @@ def rosh_plugin_load(plugin_context, globals_=None):
                        'PointStamped': PointStamped,
                        'PoseStamped': PoseStamped,
                        'QuaternionStamped': QuaternionStamped,
-                       'Vector3Stamped': Vector3Stamped
+                       'Vector3Stamped': Vector3Stamped,
+                       'setXYZ': setXYZ,
+                       'setQuat': setQuat
       }
     rosh.plugin.globals_load(plugin_context, globals_, _loaded_symbols)

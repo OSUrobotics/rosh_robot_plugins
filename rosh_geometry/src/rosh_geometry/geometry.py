@@ -73,7 +73,7 @@ class Quaternion(geometry_msgs.msg.Quaternion):
     def __init__(self, x=0., y=0., z=0., w=1.):
         geometry_msgs.msg.Quaternion.__init__(self, x, y, z, w)
 
-class QuaternionStamped(geometry_msgs.msg.Quaternion):
+class QuaternionStamped(geometry_msgs.msg.QuaternionStamped):
     def __init__(self, x=0., y=0., z=0., w=1., frame_id=_DEFAULT_FRAME_ID, stamp=None):
         """
         @param stamp: Header timestamp. defaults to rospy.Time(0)

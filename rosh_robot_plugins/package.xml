@@ -2,7 +2,7 @@
   <name>rosh_robot_plugins</name>
   <version>1.0.1</version>
   <description>ROSH related packages. This is a temporary stack that is expected to go away after the Diamondback release. For C Turtle and Diamondback it provides a convenient way to install rosh until it is properly stabilized.</description>
-  <maintainer email="dan@lazewatsky.com">Maintained by Dan Lazewatsky</maintainer>
+  <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
 
   <license>BSD</license>
 

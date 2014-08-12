@@ -80,6 +80,13 @@ class TFFrame(Namespace):
         except:
             return []
 
+    def _getAttributeNames(self):
+        # strip off the leading slash in the ns since frame names are returned without it
+        ns = self._ns.lstrip('/')
+
+        # filter by frames that are in the current ns
+        return set([s[len(ns):].split('/')[0].strip('/') for s in self._list() if s.startswith(ns)])
+
     def __repr__(self):
         return self.__str__()
         

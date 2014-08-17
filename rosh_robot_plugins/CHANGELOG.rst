@@ -2,8 +2,8 @@
 Changelog for package rosh_robot_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.2 (2014-08-17)
+------------------
 * fix maintainer
 * Remove "rosh" run depend
   Fixes wiki package header for this and rosh

@@ -1,6 +1,6 @@
 <package>
   <name>rosh_robot</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>ROSH meta-plugin for the ROS 'robot' variant.</description>
   <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
 

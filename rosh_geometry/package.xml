@@ -1,6 +1,6 @@
 <package>
   <name>rosh_geometry</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>ROSH plugin for the geometry stack, including tf.</description>
   <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
 
